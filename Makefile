@@ -1,5 +1,5 @@
 
 
 
-abstract.pdf: abstract/main.tex
-	latexmk -pdf abstract/main.tex
+abstract.pdf: abstract/abstract.tex
+	cd abstract && latexmk -pdf abstract.tex && cp abstract.pdf ..
