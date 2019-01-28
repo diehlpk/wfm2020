@@ -1,0 +1,140 @@
+\documentclass[12pt]{book}
+
+\usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
+
+\usepackage{needspace}
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\sffamily\footnotesize}
+
+\usepackage{imakeidx}
+\usepackage{hyperref}
+\makeindex[intoc]
+
+\newenvironment{conf-abstract}[4][]{
+  \needspace{10\baselineskip}
+  \begin{center}
+    { \renewcommand\textsuperscript[1]{}
+      \phantomsection\addcontentsline{toc}{section}
+      {\texorpdfstring{#2 (\emph{#3})}{#2 (#3)}}
+    }
+    {{\large\bfseries #2}\marginnote{#1}\par}
+    \medskip
+    {#3\par}
+    \smallskip
+    {\small #4\par}
+  \end{center}
+}{%
+  \bigskip
+  \hrule
+  \bigskip
+}
+
+\usepackage{etoolbox}
+\newcommand{\indexauthors}[1]{%
+  \forcsvlist{\index}{#1}
+}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{-1}
+\pagestyle{plain}
+
+\usepackage{lipsum}
+
+\title{Workshop: Experimental fracture mechanics meets peridynamics and phase field}
+\author{Center of Computation and Technology, Louisiana State University}
+
+\usepackage{fontspec}
+\setmainfont{Raleway}
+
+\usepackage{timetable/calendar} 
+
+\usepackage{rotating}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\include{abstract/content}
+
+\chapter{Welcome Address}
+
+Yo, welcome! Have a good time you guys!
+
+
+\begin{sidewaysfigure}
+\include{timetable/content}
+\end{sidewaysfigure}
+
+
+\tableofcontents
+
+\mainmatter
+\chapter{Abstracts}
+
+\section{Phase field methods}
+
+
+\begin{conf-abstract}[22 Nov\\4:00pm\\R102]
+{A Study in Scarlet and Other Shades of Red}
+{John Smith, Ada White and Ben Hickley}
+{University A}
+\indexauthors{Smith!John, White!Ada, Hickley!Ben}
+
+\lipsum[1]
+\end{conf-abstract}
+
+
+%\applyCSVfile{details.csv}{%
+
+
+%\begin{letter}{\insertName\\\insertAddress}
+%\opening{Dear \insertName}
+
+%}
+
+
+\section{Peridynamic}
+
+
+\section{Experimental fracture mechanics}
+
+% Specify conf-abstract like this:
+% \begin{conf-abstract}[optional text going into the margin note]
+% {Title of Paper}
+% {Authors (use \textsuperscript as institution markers)}
+% {Institutions (use \textsuperscript as institution markers)}
+% \indexauthors{Lastname1!Firstname 1, Lastname2!Firstname2}
+% Abstract text
+% \end{conf-abstract}
+%
+% It's probably best to generate the abstracts from a 
+% database or something via a script. Don't forget to
+% check through for any special characters that need to
+% be escaped.
+
+%\input{abstracts/paper1}
+%\input{abstracts/paper2}
+%\input{abstracts/paper3}
+
+\chapter{Additional information}
+
+\section{Addresses}
+
+\subsection*{Workshop venue}
+Center for Computation and Technology, 340 E Parker Blvd, Baton Rouge, LA 70808
+\subsection*{Hotel}
+The Cook Hotel at LSU, 3848 W Lakeshore Dr, Baton Rouge, LA 70808 \\
+(225) 383-2665
+\subsection*{Banquet}
+
+
+
+
+
+\backmatter
+\renewcommand{\indexname}{Author Index}
+\printindex
+
+\end{document}

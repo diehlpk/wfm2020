@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conference/Event Timetable
+% LaTeX Template
+% Version 1.1 (24/9/18)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Evan Sultanik with modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the calendar.sty file to be in the same directory as the
+% .tex file. The calendar.sty file provides the necessary structure to create the
+% calendar.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,letterpaper]{article} % Can also use 11pt for a larger overall font size
+
+\usepackage{calendar} % Use the calendar.sty style
+
+\usepackage[landscape, letterpaper, margin=1cm]{geometry} % Page dimensions and margins
+
+\usepackage{fontspec}
+\setmainfont{Raleway}
+
+\begin{document}
+
+\pagestyle{empty} % Disable default headers and footers
+
+\setlength{\parindent}{0pt} % Stop paragraph indentation
+
+\StartingDayNumber=1 % Calendar starting day, default of 1 means Sunday, 2 for Monday, etc
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+	\textsc{\LARGE Conference X}\\ % Title
+	\textsc{\large February 2020} % Date
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\input{content}
+
+\end{document}
