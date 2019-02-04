@@ -34,11 +34,11 @@
 \setmainfont{Raleway}
 
 \usepackage{datatool}
-\DTLloaddb{talks}{../data.csv}
-\newcommand*{\thevalue}{}
-\newcommand*{\getCol}[2]{%
-  \DTLgetvalueforkey{\thevalue}{col#1}{talks}{ID}{#2}%
-}
+
+\DTLloaddb{data}{../data.csv}
+
+\input{../commands}
+
 
 \begin{document}
 
@@ -54,11 +54,13 @@
 
 \begin{center}
 	\textsc{\LARGE Conference X}\\ % Title
-	\textsc{\large February 2020  \getCol{1}{Last}} % Date
+	\textsc{\large February 2020} % Date
 \end{center}
 
 %----------------------------------------------------------------------------------------
 
 \input{content}
+
+
 
 \end{document}

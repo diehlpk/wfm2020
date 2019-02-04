@@ -1,0 +1,10 @@
+
+\newcommand*{\thevalue}{}
+\newcommand*{\getCol}[2]{%
+  \DTLgetvalueforkey{\thevalue}{Last}{data}{Talk}{#2}%
+}
+
+\newcommand*{\lastname}[1]{
+\getCol{1}{#1}
+\thevalue
+}
