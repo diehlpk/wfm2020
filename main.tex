@@ -38,7 +38,6 @@
 \setcounter{secnumdepth}{-1}
 \pagestyle{plain}
 
-\usepackage{lipsum}
 
 \title{Workshop: Experimental fracture mechanics meets peridynamics and phase field}
 \author{Center of Computation and Technology, Louisiana State University}
@@ -79,32 +78,21 @@ Yo, welcome! Have a good time you guys!
 \mainmatter
 \chapter{Abstracts}
 
-\section{Phase field methods}
 
 
-\begin{conf-abstract}[22 Nov\\4:00pm\\R102]
-{A Study in Scarlet and Other Shades of Red}
-{John Smith, Ada White and Ben Hickley}
-{University A}
-\indexauthors{Smith!John, White!Ada, Hickley!Ben}
 
-\lipsum[1]
+\DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time}
+{
+\begin{conf-abstract}[\datum\\\time]
+{\title}
+{\first \last}
+{\affiliation}
+\indexauthors{\last!\first}
 \end{conf-abstract}
+}
 
 
-%\applyCSVfile{details.csv}{%
 
-
-%\begin{letter}{\insertName\\\insertAddress}
-%\opening{Dear \insertName}
-
-%}
-
-
-\section{Peridynamic}
-
-
-\section{Experimental fracture mechanics}
 
 % Specify conf-abstract like this:
 % \begin{conf-abstract}[optional text going into the margin note]
