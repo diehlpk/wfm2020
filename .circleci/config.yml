@@ -5,4 +5,7 @@ jobs:
       - image: danteev/texlive
     steps:
       - checkout
+      - run: mkdir .fonts
+      - run: git clone git://github.com/google/fonts.git .fonts/google-fonts
+      - run: fc-cache -f
       - run: make
