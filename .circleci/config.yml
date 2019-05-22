@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: danteev/texlive
+      - image: blang/latex:ctanfull
     steps:
       - checkout
       - run: mkdir .fonts
