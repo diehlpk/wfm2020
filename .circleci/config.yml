@@ -8,6 +8,12 @@ jobs:
       - run: latexmk -pdf main.tex
       - run: cd timetable && latexmk -pdf timetable.tex && cp timetable.pdf ..
       - run: cd abstract && latexmk -pdf abstract.tex && cp abstract.pdf ..
+      - store_artifacts:
+          path: main.pdf
+      - store_artifacts:
+          path: abstract.pdf
+      - store_artifacts:
+          path: timetable.pdf
 
 
 
