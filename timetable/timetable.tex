@@ -29,9 +29,12 @@
 \usepackage{calendar} % Use the calendar.sty style
 
 \usepackage[landscape, letterpaper, margin=1cm]{geometry} % Page dimensions and margins
+\usepackage{ifxetex}
 
+\ifxetex
 \usepackage{fontspec}
 \setmainfont{Raleway}
+\fi
 
 \usepackage{datatool}
 

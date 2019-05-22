@@ -2,7 +2,13 @@ version: 2
 jobs:
   build:
     docker:
-      - image: blang/latex:ctanfull
+      - image: danteev/texlive
     steps:
       - checkout
-      - run: make
+      - run: latexmk -pdf main.tex
+      - run: cd timetable && latexmk -pdf timetable.tex && cp timetable.pdf ..
+      - run: cd abstract && latexmk -pdflatex=xelatex -pdf abstract.tex && cp abstract.pdf ..
+
+
+
+

@@ -4,6 +4,7 @@
 
 \usepackage{needspace}
 \usepackage{marginnote}
+\usepackage{ifxetex}
 \renewcommand*{\marginfont}{\sffamily\footnotesize}
 
 \usepackage{imakeidx}
@@ -43,8 +44,10 @@
 	\large Validating peridynamics and phase field models for fracture prediction and experimental design}
 \author{Venue: \\ Center of Computation \& Technology \\ Louisiana State University}
 
+\ifxetex
 \usepackage{fontspec}
 \setmainfont{Raleway}
+\fi
 
 \usepackage{timetable/calendar} 
 
