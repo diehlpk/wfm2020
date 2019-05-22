@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: latexmk -pdf main.tex
       - run: cd timetable && latexmk -pdf timetable.tex && cp timetable.pdf ..
-      - run: cd abstract && latexmk -pdflatex=xelatex -pdf abstract.tex && cp abstract.pdf ..
+      - run: cd abstract && latexmk -pdf abstract.tex && cp abstract.pdf ..
 
 
 
