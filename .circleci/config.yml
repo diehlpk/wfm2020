@@ -10,10 +10,13 @@ jobs:
       - run: cd abstract && latexmk -pdf abstract.tex && cp abstract.pdf ..
       - store_artifacts:
           path: main.pdf
+          destination: main.pdf
       - store_artifacts:
           path: abstract.pdf
+          destination: abstract.pdf
       - store_artifacts:
           path: timetable.pdf
+          destination: schedule.pdf
 
 
 
