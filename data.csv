@@ -1,5 +1,5 @@
-Talk,First,Last,Abstract,Affiliation,Title,Date,Time
-1,Stuart,Silling,a,a,a,a,a
+Talk,Last,First,Abstract,Affiliation,Title,Date,Time
+1,Silling ,Stewart,a,a,a,a,a
 2,a,PD1,a,a,a,a,a
 3,a,PD2,a,a,a,a,a
 4,a,PD3,a,a,a,a,a
@@ -16,8 +16,8 @@ Talk,First,Last,Abstract,Affiliation,Title,Date,Time
 15,a,EXP4,a,a,a,a,a
 16,a,EXP5,a,a,a,a,a
 17,a,EXP6,a,a,a,a,a
-18,a,Keynote,a,a,a,a,a
-19,a,Phase1,a,a,a,a,a
+18,Anand,Lallit,a,a,a,a,a
+19,Lopez-Pamies,Oscar,a,a,a,a,a,a
 20,a,Phase2,a,a,a,a,a
 21,a,Phase3,a,a,a,a,a
 22,a,Phase4,a,a,a,a,a

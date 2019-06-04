@@ -80,22 +80,29 @@ Yo, welcome! Have a good time you guys!
 \tableofcontents
 
 \mainmatter
-\chapter{Abstracts}
-
-
-
+\chapter{Talks}
 
 \DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time}
 {
 \begin{conf-abstract}[\datum\\\time]
 {\title}
-{\first \last}
+{\first~ \last}
 {\affiliation}
 \indexauthors{\last!\first}
 \end{conf-abstract}
 }
 
+\chapter{Posters}
 
+%\DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,%Z\datum=Date,\time=Time}
+%{
+%\begin{conf-abstract}[\datum\\\time]
+%{\title}
+%{\first~ \last}
+%{\affiliation}
+%\indexauthors{\last!\first}
+%\end{conf-abstract}
+%}
 
 
 % Specify conf-abstract like this:
