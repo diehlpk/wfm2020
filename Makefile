@@ -1,3 +1,4 @@
+all: main.pdf timetable.pdf abstract.pdf
 
 main.pdf: main.tex
 	latexmk -pdflatex=xelatex -pdf main.tex
