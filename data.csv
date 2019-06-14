@@ -1,25 +1,25 @@
 Talk,Last,First,Abstract,Affiliation,Title,Date,Time
-1,Silling ,Stewart,a,Sandia National Laboratories ,a,a,a
-2,Madenci,Erdogan,a,The University of Arizona,a,a,a
-3,Galvanetto,Ugo,a,The University of Padua,a,a,a
-4,a,PD3,a,a,a,a,a
-5,a,PD4,a,a,a,a,a
-6,Seleson,Pablo,a,Oak Ridge National Laboratory,a,a,a
-7,Lipton,Robert,a,Louisiana State University,a,a,a
-8,Diehl,Patrick,a,Louisiana State University,a,a,a
-9,Srinivasan,Gowri,a,Los Alamos National Laboratory,a,a,a
-10,a,UQ2,a,a,a,a,a
-11,Krishnaswa,Ravi--Chandar,a,The University of Texas at Austin,a,a,a
-12,Hareesh,Tippur,a,Auburn University,a,a,a
-13,Francois,Hild,a,École Normale Supérieure Paris-Saclay,a,a,a
-14,a,EXP3,a,a,a,a,a
-15,a,EXP4,a,a,a,a,a
-16,a,EXP5,a,a,a,a,a
-17,a,EXP6,a,a,a,a,a
-18,Anand,Lallit,a,Massachusetts Institute of Technology,a,a,a
-19,Lopez-Pamies,Oscar,a,University of Illinois at Urbana-Champaign,a,a,a,a
-20,a,Phase2,a,a,a,a,a
-21,a,Phase3,a,a,a,a,a
-22,a,Phase4,a,a,a,a,a
-23,a,Phase5,a,a,a,a,a
-24,a,Phase6,a,a,a,a,a
+1,Silling ,Stewart,a,Sandia National Laboratories ,a,26$^{th}$,09:00--10:00
+2,Madenci,Erdogan,a,The University of Arizona,a,26$^{th}$,10:30--11:00
+3,Galvanetto,Ugo,a,The University of Padua,a,26$^{th}$,11:00--11:30
+4,a,PD3,a,a,a,26$^{th}$,11:30--12:00
+5,a,PD4,a,a,a,26$^{th}$,12:00--12:30
+6,Seleson,Pablo,a,Oak Ridge National Laboratory,a,26$^{th}$,14:00--14:30
+7,Lipton,Robert,a,Louisiana State University,a,26$^{th}$,14:30--15:00
+8,Diehl,Patrick,a,Louisiana State University,a,26$^{th}$,15:00--15:30
+9,Srinivasan,Gowri,a,Los Alamos National Laboratory,a,26$^{th}$,16:30--17:00
+10,a,UQ2,a,a,a,26$^{th}$,17:00--17:30
+11,Krishnaswa,Ravi--Chandar,a,The University of Texas at Austin,a,27$^{th}$,9:00--10:00
+12,Hareesh,Tippur,a,Auburn University,a,27$^{th}$,10:30--11:00
+13,Francois,Hild,a,École Normale Supérieure Paris-Saclay,a,27$^{th}$,11:00--11:30
+14,a,EXP3,a,a,a,27$^{th}$,11:30--12:00
+15,a,EXP4,a,a,a,27$^{th}$,12:00--12:30
+16,a,EXP5,a,a,a,27$^{th}$,14:00--14:30
+17,a,EXP6,a,a,a,27$^{th}$,14:30--15:00
+18,Anand,Lallit,a,Massachusetts Institute of Technology,a,27$^{th}$,16;00--17:00
+19,Lopez-Pamies,Oscar,a,University of Illinois at Urbana-Champaign,a,a,27$^{th}$,17:00--17:30
+20,a,Phase2,a,a,a,28$^{th}$,9:00--9:30
+21,a,Phase3,a,a,a,28$^{th}$,9:30--10:00
+22,a,Phase4,a,a,a,28$^{th}$,10:30--11:00
+23,a,Phase5,a,a,a,28$^{th}$,11:00--11:30
+24,a,Phase6,a,a,a,28$^{th}$,11:30--12:00
