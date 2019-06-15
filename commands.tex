@@ -8,3 +8,17 @@
 \getCol{1}{#1}
 \thevalue 
 }
+
+
+\newcommand*{\thevalues}{}
+\newcommand*{\getCols}[2]{%
+  \DTLgetvalueforkey{\thevalues}{Time}{data}{Talk}{#2}%
+}
+
+
+
+\newcommand*{\gettime}[2]{
+\getCols{1}{#1}
+\kern-1ex\thevalues
+}
+
