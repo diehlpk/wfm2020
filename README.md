@@ -1,4 +1,4 @@
-# Workshop on Experimental and Computational Fracture Mechanics [![CircleCI](https://circleci.com/gh/diehlpk/Workshop19/tree/master.svg?style=svg)](https://circleci.com/gh/diehlpk/Workshop19/tree/master)
+# Workshop on Experimental and Computational Fracture Mechanics [![CircleCI](https://circleci.com/gh/diehlpk/wfm2020.svg?style=svg)](https://circleci.com/gh/diehlpk/wfm2020)
 
 Comparison of numerical simulations against experimental data is essential for the validation of fracture models in order to gain confidence in their predictability and reliability. Peridynamics and phase field approaches have recently delivered promising results for modeling complex fracture phenomena and significant efforts have been carried out in the past years to validate the corresponding fracture models using available experimental data. However, on one hand, it is still unclear whether the data obtained from current experiments is informative enough to satisfactorily validate models in fracture mechanics. On the other hand, it would also be interesting to combine simulation tools and experimental design to optimize control parameters in fracture mechanics experiments.
 
