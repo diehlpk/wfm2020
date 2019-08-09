@@ -5,11 +5,12 @@ main.pdf: main.tex data.csv
 
 
 timetable.pdf: timetable/timetable.tex data.csv
-	cd timetable && latexmk -pdflatex=xelatex -pdf timetable.tex && cp timetable.pdf ..
+	cd timetable && latexmk -pdflatex=xelatex -pdf timetable.tex && mv timetable.pdf ..
 
 
 abstract.pdf: abstract/abstract.tex
-	cd abstract && latexmk -pdflatex=xelatex -pdf abstract.tex && cp abstract.pdf ..
+	cd abstract && latexmk -pdflatex=xelatex -pdf abstract.tex && mv abstract.pdf ..
 
 clean:
 	latexmk -CA
+	rm abstract.pdf timetable.pdf 
