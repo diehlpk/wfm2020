@@ -62,6 +62,7 @@
 \usepackage{datatool}
 
 \DTLloaddb{data}{./data.csv}
+\DTLloaddb{dataPoster}{./dataPoster.csv}
 
 \include{commands}
 
@@ -89,7 +90,6 @@ This workshop is sponsored by
 
 Yo, welcome! Have a good time you guys!
 
-(\gettime{1}~)
 
 \begin{sidewaysfigure}
 \include{timetable/content}
@@ -101,28 +101,29 @@ Yo, welcome! Have a good time you guys!
 \mainmatter
 \chapter{Talks}
 
-\DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time}
+\DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time,\text=Abstract}
 {
 \begin{conf-abstract}[\datum\\\time]
 {\title}
 {\first~ \last}
 {\affiliation}
 \indexauthors{\last!\first}
+\text
 \end{conf-abstract}
 }
 
 \chapter{Posters}
 
-%\DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,%Z\datum=Date,\time=Time}
-%{
-%\begin{conf-abstract}[\datum\\\time]
-%{\title}
-%{\first~ \last}
-%{\affiliation}
-%\indexauthors{\last!\first}
-%\end{conf-abstract}
-%}
-
+\DTLforeach*{dataPoster}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time,\text=Abstract}
+{
+\begin{conf-abstract}[\datum\\\time]
+{\title}
+{\first~ \last}
+{\affiliation}
+\indexauthors{\last!\first}
+\text
+\end{conf-abstract}
+}
 
 
 % Specify conf-abstract like this:
