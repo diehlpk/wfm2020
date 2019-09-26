@@ -1,8 +1,10 @@
 \documentclass[12pt]{book}
 
-\pdfminorversion=5
-\pdfobjcompresslevel=3 
-\pdfcompresslevel=9
+
+
+
+
+
 
 \usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
 
@@ -19,6 +21,12 @@
 
 \usepackage{imakeidx}
 \usepackage{hyperref}
+\hypersetup{
+pdftitle={Book of Abstracts},
+pdfsubject={WFM2020},
+pdfauthor={Patrick Diehl},
+pdfkeywords={phase fields,peridynamics,experimental mechanics}
+}
 \makeindex[intoc]
 
 \newenvironment{conf-abstract}[4][]{
