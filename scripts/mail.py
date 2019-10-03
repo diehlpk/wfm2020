@@ -61,7 +61,7 @@ for line in file:
     
     to = line
     cc = ""
-    bcc = ""
+    bcc = "patrickdiehl@lsu.edu"
 
     rcpt = cc.split(",") + bcc.split(",") + [to]
     msg = MIMEMultipart("alternative")
