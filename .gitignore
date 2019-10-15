@@ -1,3 +1,6 @@
+## Config files
+config.yaml
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
