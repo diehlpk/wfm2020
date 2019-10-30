@@ -4,7 +4,7 @@ main.pdf: main.tex data.csv abstract/content.tex
 	latexmk -pdflatex=xelatex -pdf main.tex
 
 
-timetable.pdf: timetable/timetable.tex data.csv
+timetable.pdf: timetable/timetable.tex data.csv timetable/content.tex
 	cd timetable && latexmk -pdflatex=xelatex -pdf timetable.tex && mv timetable.pdf ..
 
 
