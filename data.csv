@@ -1,25 +1,25 @@
 Talk,Last,First,Abstract,Affiliation,Title,Date,Time
-1,Silling ,Stewart,a,Sandia National Laboratories ,a,26$^{th}$,9:00 AM--10:00 AM
-2,Madenci,Erdogan,a,The University of Arizona,a,26$^{th}$,10:30 AM--11:00 AM
-3,Galvanetto,Ugo,a,The University of Padua,a,26$^{th}$,11:00 AM--11:30 AM
-4,Bobaru,Florin,a,University of Nebraska–Lincoln,a,26$^{th}$,11:30 AM--12:00 PM
-5,Foster,John,a,The University of Texas at Austin,a,26$^{th}$,12:00 PM--12:30 PM
-6,Seleson,Pablo,a,Oak Ridge National Laboratory,a,26$^{th}$,2:00 PM--2:30 PM
-7,Lipton,Robert,a,Louisiana State University,a,26$^{th}$,2:30 PM--3:00 PM
-8,Diehl,Patrick,a,Louisiana State University,a,26$^{th}$,3:00 PM--3:30 PM
-9,Lin,Guang,a,Purdue University,a,26$^{th}$,4:30 PM--5:00 PM
-10,Guilleminot,Johann Guilleminot,Duke University,a,a,26$^{th}$,5:00 PM--5:30 PM
-11,Ravi--Chandar,Krishnaswa,a,The University of Texas at Austin,a,27$^{th}$,9:00 AM--10:00 AM
-12,Tippur,Hareesh,a,Auburn University,a,27$^{th}$,10:30 AM--11:00 AM
-13,Hild,Francois,a,École Normale Supérieure Paris-Saclay,a,27$^{th}$,11:00 AM--11:30 AM
-14,Lambros,John,a,University of Illinois at Urbana-Champaign,a,27$^{th}$,11:30 AM--12:00 PM
-15,TBD,EXP4,a,a,a,27$^{th}$,12:00 PM--12:30 PM
-16,Mohr,Dirk,a,ETH Zurich,a,27$^{th}$,2:00 PM--2:30 PM
-17,Fineberg,Jay,a,The Hebrew University of Jerusalem,a,27$^{th}$,2:30 PM--3:00 PM
-18,Anand,Lallit,a,Massachusetts Institute of Technology,a,27$^{th}$,4:00 PM--5:00 PM
-19,Lopez-Pamies,Oscar,a,University of Illinois at Urbana-Champaign,a,27$^{th}$,5:00 PM--5:30 PM
-20,Waisman,Haim,a,Columbia University,a,28$^{th}$,9:00 AM--9:30 AM
-21,Weinberg,Kerstin,a,University of Siegen,a,28$^{th}$,9:30 AM--10:00 AM
-22,Karma,Alain,a,Northeastern University,a,28$^{th}$,10:30 AM--11:00 AM
-23,Landis,Chad,a,The University of Texas at Austin,a,28$^{th}$,11:00 AM--11:30 AM
-24,Wick,Thomas,a,University of Hanover,a,28$^{th}$,11:30 AM--12:00 PM
+1,Silling,Stewart,data/silling.tex,Sandia National Laboratories,NONLOCALITY IN PERIDYNAMICS,26$^{th}$,9:00 AM--10:00 AM
+2,Madenci,Erdogan,data/madenci.tex,The University of Arizona,BOND-BASED PERIDYNAMIC MODELING WITH ARBITRARY POISSON’S RATIO IN AFINITE ELEMENT FRAMEWORK,26$^{th}$,10:30 AM--11:00 AM
+3,Galvanetto,Ugo,data/silling.tex,The University of Padua,a,26$^{th}$,11:00 AM--11:30 AM
+4,Bobaru,Florin,data/silling.tex,University of Nebraska–Lincoln,a,26$^{th}$,11:30 AM--12:00 PM
+5,Foster,John,data/silling.tex,The University of Texas at Austin,a,26$^{th}$,12:00 PM--12:30 PM
+6,Seleson,Pablo,data/silling.tex,Oak Ridge National Laboratory,a,26$^{th}$,2:00 PM--2:30 PM
+7,Lipton,Robert,data/silling.tex,Louisiana State University,a,26$^{th}$,2:30 PM--3:00 PM
+8,Diehl,Patrick,data/silling.tex,Louisiana State University,a,26$^{th}$,3:00 PM--3:30 PM
+9,Lin,Guang,data/silling.tex,Purdue University,a,26$^{th}$,4:30 PM--5:00 PM
+10,Guilleminot,Johann Guilleminot,data/silling.tex,Duke University,a,26$^{th}$,5:00 PM--5:30 PM
+11,Ravi--Chandar,Krishnaswa,data/silling.tex,The University of Texas at Austin,a,27$^{th}$,9:00 AM--10:00 AM
+12,Tippur,Hareesh,data/silling.tex,Auburn University,a,27$^{th}$,10:30 AM--11:00 AM
+13,Hild,Francois,data/silling.tex,École Normale Supérieure Paris-Saclay,a,27$^{th}$,11:00 AM--11:30 AM
+14,Lambros,John,data/silling.tex,University of Illinois at Urbana-Champaign,a,27$^{th}$,11:30 AM--12:00 PM
+15,TBD,EXP4,data/silling.tex,a,a,27$^{th}$,12:00 PM--12:30 PM
+16,Mohr,Dirk,data/silling.tex,ETH Zurich,a,27$^{th}$,2:00 PM--2:30 PM
+17,Fineberg,Jay,data/silling.tex,The Hebrew University of Jerusalem,a,27$^{th}$,2:30 PM--3:00 PM
+18,Anand,Lallit,data/anand.tex,Massachusetts Institute of Technology,A GRADIENT-DAMAGE THEORY FOR FRACTURE OFQUASI-BRITTLE MATERIALS,27$^{th}$,4:00 PM--5:00 PM
+19,Lopez-Pamies,Oscar,data/silling.tex,University of Illinois at Urbana-Champaign,a,27$^{th}$,5:00 PM--5:30 PM
+20,Waisman,Haim,data/silling.tex,Columbia University,a,28$^{th}$,9:00 AM--9:30 AM
+21,Weinberg,Kerstin,data/silling.tex,University of Siegen,a,28$^{th}$,9:30 AM--10:00 AM
+22,Karma,Alain,data/silling.tex,Northeastern University,a,28$^{th}$,10:30 AM--11:00 AM
+23,Landis,Chad,data/silling.tex,The University of Texas at Austin,a,28$^{th}$,11:00 AM--11:30 AM
+24,Wick,Thomas,data/silling.tex,University of Hanover,a,28$^{th}$,11:30 AM--12:00 PM

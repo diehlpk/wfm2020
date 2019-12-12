@@ -115,11 +115,16 @@ Yo, welcome! Have a good time you guys!
 \chapter{Industrial talk}
 
 \begin{conf-abstract}[26$^{th}$\\???]
-{a}
+{INTEGRATED  COMPUTATIONAL  MATERIALS ENGINEERING  (ICME)  DEVELOPMENT  OF CARBONFIBER COMPOSITES  FOR  LIGHTWEIGHT  VEHICLES}
 {Danielle Zeng}
 {Ford Motor Company}
 \indexauthors{Zeng!Danielle}
-a
+\begin{center}
+\textit{Co-Authors: Pablo Seleson, Bo Ren, and C.T. Wu}
+\end{center}
+Automotive   manufacturers  use  lightweight   materials  to  meet  the  increasing   demands  of  fue l efficiency.  The Carbon Fiber  Reinforced  Polymer  (CFRP) composites,  with  a density  of 1.55  g/cm3 and  a tensile  strength  of 2000  MPa in  the fiber  direction,  are among  the most  promising  candidate s  to  replace  the  metals  currently  used  for  structural  components.  It  is  important  to  note  that  the  performance  of  carbon  fiber  composites  is  determined  not  only  by  the  component  design,  but  also the  manufacturing   processes.  In  this   talk,   the  focus  is  on   the  application   of  an  Integrated Computational  Materials  Engineering  (ICME) approach  to  the structural  composite  design.  A suite  of  predictive   models   is  developed   to  link   materials   design,   manufacturing   process  and  fina l performance  to  enable  optimal   design  and  manufacturing   of  CFRP  components  for  automotive  vehicles.
+
+One of the greatest challenges  for successful applying  the ICME approach  to CF composites  is  how  to  accurately simulate  the different  failure  modes  during  crash scenarios.  Especially,  the traditiona l thin  shell  model  in  finite  element  simulation  has  difficulty  in  capturing  the  delamination  behavior during  complex  loading  conditions.  Recently,  a discontinuous  Galerkin  weak form  for bond-based peridynamic  models  is developed  for composite  modeling  through  the collaboration  among  ORNL, LSTC  and   Ford.     The  accuracy  and   computational   efficiency   of  the  developed   model   for delamination   modeling   is  demonstrated  through  simulating   a dynamic  bending  test  of  a  lamina te  structure.
 \end{conf-abstract}
 
 
@@ -127,12 +132,12 @@ a
 
 \DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time,\text=Abstract}
 {
-\begin{conf-abstract}[\datum\\\time]
+\begin{conf-abstract}[\tiny\datum\\\time]
 {\title}
 {\first~ \last}
 {\affiliation}
 \indexauthors{\last!\first}
-\text
+\input{\text}
 \end{conf-abstract}
 }
 
