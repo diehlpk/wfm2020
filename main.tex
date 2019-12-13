@@ -2,6 +2,8 @@
 
 \usepackage{xcolor}
 
+\usepackage{tocstyle}
+\usetocstyle{standard}
 
 
 
@@ -20,7 +22,7 @@
 \renewcommand*{\marginfont}{\sffamily\footnotesize}
 
 \usepackage{imakeidx}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \hypersetup{
 pdftitle={Book of Abstracts},
 pdfsubject={WFM2020},
@@ -132,7 +134,7 @@ One of the greatest challenges  for successful applying  the ICME approach  to C
 
 \DTLforeach*{data}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time,\text=Abstract}
 {
-\begin{conf-abstract}[\tiny\datum\\\time]
+\begin{conf-abstract}[\datum\\\tiny\time]
 {\title}
 {\first~ \last}
 {\affiliation}
