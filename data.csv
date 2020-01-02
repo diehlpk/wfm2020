@@ -1,25 +1,25 @@
 Talk,Last,First,Abstract,Affiliation,Title,Date,Time
-1,Silling,Stewart,data/silling.tex,Sandia National Laboratories,NONLOCALITY IN PERIDYNAMICS,26$^{th}$,9:00 AM--10:00 AM
-2,Madenci,Erdogan,data/madenci.tex,The University of Arizona,BOND-BASED PERIDYNAMIC MODELING WITH ARBITRARY POISSON’S RATIO IN AFINITE ELEMENT FRAMEWORK,26$^{th}$,10:30 AM--11:00 AM
-3,Galvanetto,Ugo,data/silling.tex,The University of Padua,a,26$^{th}$,11:00 AM--11:30 AM
-4,Bobaru,Florin,data/silling.tex,University of Nebraska–Lincoln,a,26$^{th}$,11:30 AM--12:00 PM
-5,Foster,John,data/silling.tex,The University of Texas at Austin,a,26$^{th}$,12:00 PM--12:30 PM
-6,Seleson,Pablo,data/silling.tex,Oak Ridge National Laboratory,a,26$^{th}$,2:00 PM--2:30 PM
-7,Lipton,Robert,data/silling.tex,Louisiana State University,a,26$^{th}$,2:30 PM--3:00 PM
-8,Diehl,Patrick,data/silling.tex,Louisiana State University,a,26$^{th}$,3:00 PM--3:30 PM
-9,Lin,Guang,data/silling.tex,Purdue University,a,26$^{th}$,4:30 PM--5:00 PM
-10,Guilleminot,Johann Guilleminot,data/silling.tex,Duke University,a,26$^{th}$,5:00 PM--5:30 PM
-11,Ravi--Chandar,Krishnaswa,data/silling.tex,The University of Texas at Austin,a,27$^{th}$,9:00 AM--10:00 AM
-12,Tippur,Hareesh,data/silling.tex,Auburn University,a,27$^{th}$,10:30 AM--11:00 AM
-13,Hild,Francois,data/silling.tex,École Normale Supérieure Paris-Saclay,a,27$^{th}$,11:00 AM--11:30 AM
-14,Lambros,John,data/silling.tex,University of Illinois at Urbana-Champaign,a,27$^{th}$,11:30 AM--12:00 PM
-15,Mesgarnejad,Ata,data/silling.tex,Northeastern University,a,27$^{th}$,12:00 PM--12:30 PM
-16,Mohr,Dirk,data/silling.tex,ETH Zurich,a,27$^{th}$,2:00 PM--2:30 PM
-17,Fineberg,Jay,data/silling.tex,The Hebrew University of Jerusalem,a,27$^{th}$,2:30 PM--3:00 PM
-18,Anand,Lallit,data/anand.tex,Massachusetts Institute of Technology,A GRADIENT-DAMAGE THEORY FOR FRACTURE OFQUASI-BRITTLE MATERIALS,27$^{th}$,4:00 PM--5:00 PM
-19,Lopez-Pamies,Oscar,data/silling.tex,University of Illinois at Urbana-Champaign,a,27$^{th}$,5:00 PM--5:30 PM
-20,Waisman,Haim,data/silling.tex,Columbia University,a,28$^{th}$,9:00 AM--9:30 AM
-21,Weinberg,Kerstin,data/silling.tex,University of Siegen,a,28$^{th}$,9:30 AM--10:00 AM
-22,Kamensky,David,data/silling.tex,University of California San Diego,a,28$^{th}$,10:30 AM--11:00 AM
-23,Landis,Chad,data/silling.tex,The University of Texas at Austin,a,28$^{th}$,11:00 AM--11:30 AM
-24,Wick,Thomas,data/silling.tex,University of Hanover,a,28$^{th}$,11:30 AM--12:00 PM
+1,Silling,Stewart,data/silling.tex,Sandia National Laboratories,Nonlocality in peridynamics,26$^{th}$,9:00 AM--10:00 AM
+2,Madenci,Erdogan,data/madenci.tex,The University of Arizona,Bond-based peridynamic modeling with arbitrary Poisson’s ratio in a finite element framework,26$^{th}$,10:30 AM--11:00 AM
+3,Galvanetto,Ugo,data/silling.tex,The University of Padua,Hybrid FEM and peridynamic simulation of hydraulic fracture propagation in saturated porous media,26$^{th}$,11:00 AM--11:30 AM
+4,Bobaru,Florin,data/silling.tex,University of Nebraska–Lincoln,The performance of peridynamic and phase-field models in dynamic brittle fracture,26$^{th}$,11:30 AM--12:00 PM
+5,\mbox{Foster },John ,data/silling.tex,The University of Texas at Austin,Peridynamic modeling of large deformation and ductile fracture,26$^{th}$,12:00 PM--12:30 PM
+6,Seleson,Pablo,data/silling.tex,Oak Ridge National Laboratory,Convergence studies in meshfree peridynamic wave and crack propagation,26$^{th}$,2:00 PM--2:30 PM
+7,Lipton,Robert,data/silling.tex,Louisiana State University,Nonlocal brittle fracture: computational analysis and convergence to LEFM,26$^{th}$,2:30 PM--3:00 PM
+8,Diehl,Patrick,data/silling.tex,Louisiana State University,A review of benchmark experiments for the validation of peridynamics models,26$^{th}$,3:00 PM--3:30 PM
+9,Lin ,Guang ,data/silling.tex,Purdue University,Peri-Net: Analysis of crack patterns using deep neural networks,26$^{th}$,4:30 PM--5:00 PM
+10,Guilleminot,Johann Guilleminot,data/silling.tex,Duke University,Stochastic modeling for uncertainty quantification in fracture mechanics,26$^{th}$,5:00 PM--5:30 PM
+11,Ravi--Chandar,Krishnaswa,data/silling.tex,The University of Texas at Austin,Experiments in fracture mechanics,27$^{th}$,9:00 AM--10:00 AM
+12,Tippur,Hareesh,data/silling.tex,Auburn University,Experimental identification of dynamic crack branching precursors in soda-lime silicate glass,27$^{th}$,10:30 AM--11:00 AM
+13,Hild,Francois,data/silling.tex,École Normale Supérieure Paris-Saclay,On the identification and validation of fracture mechanics models for curved crack in mortar,27$^{th}$,11:00 AM--11:30 AM
+14,Lambros,John,data/silling.tex,University of Illinois at Urbana-Champaign,Full-field experimental measurements in extreme loading environments for property extraction and simulation validation,27$^{th}$,11:30 AM--12:00 PM
+15,Mesgarnejad,Ata,data/silling.tex,Northeastern University,Interplay of fracture and plasticity in swelling-driven fracture of phase-transforming battery materials,27$^{th}$,12:00 PM--12:30 PM
+16,Mohr,Dirk,data/silling.tex,ETH Zurich,Shear fracture of metals during in-plane torsion experiments,27$^{th}$,2:00 PM--2:30 PM
+17,Fineberg,Jay,data/silling.tex,The Hebrew University of Jerusalem,How moving cracks in brittle solids choose their path,27$^{th}$,2:30 PM--3:00 PM
+18,Anand,Lallit,data/anand.tex,Massachusetts Institute of Technology,A gradient-damaged theory for fracture of quasi-brittle materials,27$^{th}$,4:00 PM--5:00 PM
+19,Lopez-Pamies,Oscar,data/silling.tex,University of Illinois at Urbana-Champaign,Revisiting nucleation in the phase-field approach to brittle fracture,27$^{th}$,5:00 PM--5:30 PM
+20,Waisman,Haim,data/silling.tex,Columbia University,Thermal-conductivity degradation across cracks in coupled thermo-mechanical systems modeled by the phase-field fracture method,28$^{th}$,9:00 AM--9:30 AM
+21,Weinberg,Kerstin,data/silling.tex,University of Siegen,Phase-field fracture models for linearized and finite strains,28$^{th}$,9:30 AM--10:00 AM
+22,Kamensky,David,data/silling.tex,University of California San Diego,Isogeometric and meshfree analysis of hyperbolic phase field fracture,28$^{th}$,10:30 AM--11:00 AM
+23,Landis,Chad,data/silling.tex,The University of Texas at Austin,Some recent progress on phase-field modeling: fatigue, r-curves, and large structures,28$^{th}$,11:00 AM--11:30 AM
+24,Wick,Thomas,data/silling.tex,University of Hannover,Attempts to validate phase-field fracture for nearly incompressible solids with experimental data,28$^{th}$,11:30 AM--12:00 PM
