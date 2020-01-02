@@ -7,9 +7,8 @@ Talk,Last,First,Abstract,Affiliation,Title,Date,Time
 6,Vaughan,Mary,data/vaughan.tex,Iowa State University,Fractional Derivatives and Viscoelasticity,,
 7,Bhattacharya,Debdeep,data/debdeep.tex,George Washington University,Two dimensional reduction of 3D axisymmetric peridynamic models,,
 8,Behzadinasab,Masoud,data/masoud.tex,Brown University,Peridynamic modeling of large deformation and ductile fracture,,
-9,Li,Xingjie,data/li.tex,University of North Carolina at Charlotte,A study of dispersion relations for coupling nonlocal and local mechanics,,
-10,Pasetto,Marco,data/pasetto.tex,Oak Ridge National Laboratory,Convergence in peridynamic fracture modeling,,
-11,Tian,Xiaochuan,data/tian.tex,The University of Texas at Austin,Fast algorithm for peridynamics and nonlocal models in heterogeneous media,,
-12,Butt,Sahir,data/butt.tex,Ruhr University Bochum (Germany),Dynamic fracture modeling with peridynamics,,
-13,Cao,Le,data/le.tex,University of Kentucky,Peridynamic modeling of plastic deformation for ductile fracture,,
+9,Pasetto,Marco,data/pasetto.tex,Oak Ridge National Laboratory,Convergence in peridynamic fracture modeling,,
+10,Tian,Xiaochuan,data/tian.tex,The University of Texas at Austin,Fast algorithm for peridynamics and nonlocal models in heterogeneous media,,
+11,Butt,Sahir,data/butt.tex,Ruhr University Bochum (Germany),Dynamic fracture modeling with peridynamics,,
+12,Cao,Le,data/le.tex,University of Kentucky,Peridynamic modeling of plastic deformation for ductile fracture,,
 
