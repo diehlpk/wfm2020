@@ -19,7 +19,7 @@ Talk,Last,First,Abstract,Affiliation,Title,Date,Time
 18,Anand ,\mbox{Lallit} ,data/anand.tex,Massachusetts Institute of Technology,A gradient-damaged theory for fracture of quasi-brittle materials,27$^{th}$,4:00 PM--5:00 PM
 19,Lopez-Pamies,Oscar,data/silling.tex,University of Illinois at Urbana-Champaign,Revisiting nucleation in the phase-field approach to brittle fracture,27$^{th}$,5:00 PM--5:30 PM
 20,Waisman,Haim,data/silling.tex,Columbia University,Thermal-conductivity degradation across cracks in coupled thermo-mechanical systems modeled by the phase-field fracture method,28$^{th}$,9:00 AM--9:30 AM
-21,\mbox{Weinberg} ,Kerstin ,data/silling.tex,University of Siegen,Phase-field fracture models for linearized and finite strains,28$^{th}$,9:30 AM--10:00 AM
-22,Kamensky,David,data/silling.tex,University of California San Diego,Isogeometric and meshfree analysis of hyperbolic phase field fracture,28$^{th}$,10:30 AM--11:00 AM
-23,Landis,Chad,data/silling.tex,The University of Texas at Austin,Some recent progress on phase-field modeling: fatigue, r-curves, and large structures,28$^{th}$,11:00 AM--11:30 AM
-24,Wick,Thomas,data/silling.tex,University of Hannover,Attempts to validate phase-field fracture for nearly incompressible solids with experimental data,28$^{th}$,11:30 AM--12:00 PM
+21,\mbox{Weinberg} ,Kerstin ,data/weinberg.tex,University of Siegen,Phase-field fracture models for linearized and finite strains,28$^{th}$,9:30 AM--10:00 AM
+22,Kamensky,David,data/kamensky.tex,University of California San Diego,Isogeometric and meshfree analysis of hyperbolic phase field fracture,28$^{th}$,10:30 AM--11:00 AM
+23,Landis,Chad,data/landis.tex,The University of Texas at Austin,Some recent progress on phase-field modeling: fatigue, r-curves, and large structures,28$^{th}$,11:00 AM--11:30 AM
+24,Wick,Thomas,data/wick.tex,University of Hannover,Attempts to validate phase-field fracture for nearly incompressible solids with experimental data,28$^{th}$,11:30 AM--12:00 PM

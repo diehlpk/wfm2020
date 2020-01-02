@@ -1,0 +1,28 @@
+\begin{center}
+\textit{Co-Authors: Georgios Moutsanidis and Yuri Bazilevs}
+\end{center} 
+We introduce a phase field fracture formulation that results in a hyperbolic partial differential
+equation (PDE) for the order parameter distinguishing broken and unbroken phases of the
+material [1, 2]. This PDE can be formally derived from microforce balance theory by associating
+a microscopic kinetic energy with the order parameter’s rate of change. An important practical
+advantage is that hyperbolic PDEs are more amenable to explicit time stepping, which is almost
+universally favored in simulations of extreme events like explosions, where small time steps
+are needed to resolve rapid phenomena. Finite element computations of benchmark problems
+demonstrate that the properties of the new model are similar to elliptic phase field models
+(relative to typical modeling errors of current methods), although there is a noticeable rate-
+toughening effect, which becomes more pronounced as the wave speed is reduced. The model is
+then implemented into a hybrid meshfree–isogeometric hydrocode to simulate more complicated
+scenarios and perform qualitative comparisons with experimental results from the literature on
+blast-induced fracture of PMMA. We conclude with some discussion of ongoing and future work
+on efficient implementation of isogeometric and meshfree technologies, such as using automatic
+code generation [3] to rapidly test new formulations.\\
+
+\noindent\textbf{References}\\
+$[$1$]$ D. Kamensky, G. Moutsanidis, and Y. Bazilevs, Hyperbolic phase field modeling of brittle
+fracture: part I—theory and simulations, Journal of the Mechanics and Physics of Solids,
+121, 81–98, 2018.\\\newline
+$[$2$]$ G. Moutsanidis, D. Kamensky, J.S. Chen, and Y. Bazilevs, Hyperbolic phase field mod-
+eling of brittle fracture: part II—immersed IGA–RKPM coupling for air-blast–structure
+interaction, Journal of the Mechanics and Physics of Solids, 121, 114–132, 2018.\\\newline
+$[$3$]$ D. Kamensky, Y. Bazilevs, tIGAr: Automating isogeometric analysis with FEniCS. Com-
+puter Methods in Applied Mechanics and Engineering, 344, 477–489, 2019.
