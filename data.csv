@@ -12,13 +12,13 @@ Talk,Last,First,Abstract,Affiliation,Title,Date,Time
 11,Ravi--Chandar,Krishnaswa,data/silling.tex,The University of Texas at Austin,Experiments in fracture mechanics,27$^{th}$,9:00 AM--10:00 AM
 12,Tippur,Hareesh,data/silling.tex,Auburn University,Experimental identification of dynamic crack branching precursors in soda-lime silicate glass,27$^{th}$,10:30 AM--11:00 AM
 13,Hild,Francois,data/silling.tex,École Normale Supérieure Paris-Saclay,On the identification and validation of fracture mechanics models for curved crack in mortar,27$^{th}$,11:00 AM--11:30 AM
-14,\mbox{Lambros} ,John ,data/silling.tex,University of Illinois at Urbana-Champaign,Full-field experimental measurements in extreme loading environments for property extraction and simulation validation\quad ,27$^{th}$,11:30 AM--12:00 PM
-15,Mesgarnejad,Ata,data/silling.tex,Northeastern University,Interplay of fracture and plasticity in swelling-driven fracture of phase-transforming battery materials,27$^{th}$,12:00 PM--12:30 PM
-16,Mohr,Dirk,data/silling.tex,ETH Zurich,Shear fracture of metals during in-plane torsion experiments,27$^{th}$,2:00 PM--2:30 PM
-17,Fineberg,Jay,data/silling.tex,The Hebrew University of Jerusalem,How moving cracks in brittle solids choose their path,27$^{th}$,2:30 PM--3:00 PM
+14,\mbox{Lambros} ,John ,data/lambros.tex,University of Illinois at Urbana-Champaign,Full-field experimental measurements in extreme loading environments for property extraction and simulation validation\quad ,27$^{th}$,11:30 AM--12:00 PM
+15,Mesgarnejad,Ata,data/ata.tex,Northeastern University,Interplay of fracture and plasticity in swelling-driven fracture of phase-transforming battery materials,27$^{th}$,12:00 PM--12:30 PM
+16,Mohr,Dirk,data/mohr.tex,ETH Zurich,Shear fracture of metals during in-plane torsion experiments,27$^{th}$,2:00 PM--2:30 PM
+17,Fineberg,Jay,data/fineberg.tex,The Hebrew University of Jerusalem,How moving cracks in brittle solids choose their path,27$^{th}$,2:30 PM--3:00 PM
 18,Anand ,\mbox{Lallit} ,data/anand.tex,Massachusetts Institute of Technology,A gradient-damaged theory for fracture of quasi-brittle materials,27$^{th}$,4:00 PM--5:00 PM
-19,Lopez-Pamies,Oscar,data/silling.tex,University of Illinois at Urbana-Champaign,Revisiting nucleation in the phase-field approach to brittle fracture,27$^{th}$,5:00 PM--5:30 PM
-20,Waisman,Haim,data/silling.tex,Columbia University,Thermal-conductivity degradation across cracks in coupled thermo-mechanical systems modeled by the phase-field fracture method,28$^{th}$,9:00 AM--9:30 AM
+19,Lopez-Pamies,Oscar,data/lopez.tex,University of Illinois at Urbana-Champaign,Revisiting nucleation in the phase-field approach to brittle fracture,27$^{th}$,5:00 PM--5:30 PM
+20,Waisman,Haim,data/waisman.tex,Columbia University,Thermal-conductivity degradation across cracks in coupled thermo-mechanical systems modeled by the phase-field fracture method,28$^{th}$,9:00 AM--9:30 AM
 21,\mbox{Weinberg} ,Kerstin ,data/weinberg.tex,University of Siegen,Phase-field fracture models for linearized and finite strains,28$^{th}$,9:30 AM--10:00 AM
 22,Kamensky,David,data/kamensky.tex,University of California San Diego,Isogeometric and meshfree analysis of hyperbolic phase field fracture,28$^{th}$,10:30 AM--11:00 AM
 23,Landis,Chad,data/landis.tex,The University of Texas at Austin,Some recent progress on phase-field modeling: fatigue, r-curves, and large structures,28$^{th}$,11:00 AM--11:30 AM
