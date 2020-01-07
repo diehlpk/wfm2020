@@ -15,3 +15,6 @@ clean:
 	latexmk -pdf -CA
 	cd abstract && latexmk -pdf  -CA
 	cd timetable && latexmk -pdf -CA
+
+images:
+	convert -density 900 -background white -alpha remove -alpha off timetable.pdf timetable.png
