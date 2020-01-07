@@ -12,5 +12,6 @@ abstract.pdf: abstract/abstract.tex abstract/content.tex
 	cd abstract && latexmk -pdflatex=xelatex -pdf abstract.tex && mv abstract.pdf ..
 
 clean:
-	latexmk -CA
-	rm abstract.pdf timetable.pdf 
+	latexmk -pdf -CA
+	cd abstract && latexmk -pdf  -CA
+	cd timetable && latexmk -pdf -CA
