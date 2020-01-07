@@ -1,15 +1,15 @@
 Talk,Last,First,Abstract,Affiliation,Title,Date,Time
 1,Silling,Stewart,data/silling.tex,Sandia National Laboratories,Nonlocality in peridynamics,26$^{th}$,9:00 AM--10:00 AM
 2,Madenci,Erdogan,data/madenci.tex,The University of Arizona,Bond-based peridynamic modeling with arbitrary Poisson’s ratio in a finite element framework,26$^{th}$,10:30 AM--11:00 AM
-3,Galvanetto,Ugo,data/silling.tex,The University of Padua,Hybrid FEM and peridynamic simulation of hydraulic fracture propagation in saturated porous media,26$^{th}$,11:00 AM--11:30 AM
-4,Bobaru,Florin,data/silling.tex,University of Nebraska–Lincoln,The performance of peridynamic and phase-field models in dynamic brittle fracture,26$^{th}$,11:30 AM--12:00 PM
-5,\mbox{Foster },John ,data/silling.tex,The University of Texas at Austin,Peridynamic modeling of large deformation and ductile fracture,26$^{th}$,12:00 PM--12:30 PM
-6,Seleson,Pablo,data/silling.tex,Oak Ridge National Laboratory,Convergence studies in meshfree peridynamic wave and crack propagation,26$^{th}$,2:00 PM--2:30 PM
-7,Lipton,Robert,data/silling.tex,Louisiana State University,Nonlocal brittle fracture: computational analysis and convergence to LEFM,26$^{th}$,2:30 PM--3:00 PM
-8,Diehl,Patrick,data/silling.tex,Louisiana State University,A review of benchmark experiments for the validation of peridynamics models,26$^{th}$,3:00 PM--3:30 PM
-9,Lin ,Guang ,data/silling.tex,Purdue University,Peri-Net: Analysis of crack patterns using deep neural networks,26$^{th}$,4:30 PM--5:00 PM
-10,Guilleminot,Johann Guilleminot,data/silling.tex,Duke University,Stochastic modeling for uncertainty quantification in fracture mechanics,26$^{th}$,5:00 PM--5:30 PM
-11,Ravi--Chandar,Krishnaswa,data/silling.tex,The University of Texas at Austin,Experiments in fracture mechanics,27$^{th}$,9:00 AM--10:00 AM
+3,Galvanetto,Ugo,data/galvanetto.tex,The University of Padua,Hybrid FEM and peridynamic simulation of hydraulic fracture propagation in saturated porous media,26$^{th}$,11:00 AM--11:30 AM
+4,Bobaru,Florin,data/bobaru.tex,University of Nebraska–Lincoln,The performance of peridynamic and phase-field models in dynamic brittle fracture,26$^{th}$,11:30 AM--12:00 PM
+5,\mbox{Foster },John ,data/foster.tex,The University of Texas at Austin,Peridynamic modeling of large deformation and ductile fracture,26$^{th}$,12:00 PM--12:30 PM
+6,Seleson,Pablo,data/seleson.tex,Oak Ridge National Laboratory,Convergence studies in meshfree peridynamic wave and crack propagation,26$^{th}$,2:00 PM--2:30 PM
+7,Lipton,Robert,data/lipton.tex,Louisiana State University,Nonlocal brittle fracture: computational analysis and convergence to LEFM,26$^{th}$,2:30 PM--3:00 PM
+8,Diehl,Patrick,data/diehl.tex,Louisiana State University,A review of benchmark experiments for the validation of peridynamics models,26$^{th}$,3:00 PM--3:30 PM
+9,Lin ,Guang ,data/lin.tex,Purdue University,Peri-Net: Analysis of crack patterns using deep neural networks,26$^{th}$,4:30 PM--5:00 PM
+10,Guilleminot,Johann,data/guilleminot.tex,Duke University,Stochastic modeling for uncertainty quantification in fracture mechanics,26$^{th}$,5:00 PM--5:30 PM
+11,Ravi--Chandar,Krishnaswa,data/ravi.tex,The University of Texas at Austin,Experiments in fracture mechanics,27$^{th}$,9:00 AM--10:00 AM
 12,Tippur,Hareesh,data/tippur.tex,Auburn University,Experimental identification of dynamic crack branching precursors in soda-lime silicate glass,27$^{th}$,10:30 AM--11:00 AM
 13,Hild,Francois,data/hild.tex,École Normale Supérieure Paris-Saclay,On the identification and validation of fracture mechanics models for curved crack in mortar,27$^{th}$,11:00 AM--11:30 AM
 14,\mbox{Lambros} ,John ,data/lambros.tex,University of Illinois at Urbana-Champaign,Full-field experimental measurements in extreme loading environments for property extraction and simulation validation\quad ,27$^{th}$,11:30 AM--12:00 PM
