@@ -1,7 +1,7 @@
 all: main.pdf timetable.pdf abstract.pdf
 
 main.pdf: main.tex data.csv abstract/content.tex
-	latexmk -pdflatex=xelatex -pdf main.tex
+	latexmk -pdf main.tex
 
 
 timetable.pdf: timetable/timetable.tex data.csv timetable/content.tex

@@ -7,7 +7,7 @@ Talk,Last,First,Abstract,Affiliation,Title,Date,Time
 6,Seleson,Pablo,data/seleson.tex,Oak Ridge National Laboratory,Convergence studies in meshfree peridynamic wave and crack propagation,26$^{th}$,2:00 PM--2:30 PM
 7,Lipton,Robert,data/lipton.tex,Louisiana State University,Nonlocal brittle fracture: computational analysis and convergence to LEFM,26$^{th}$,2:30 PM--3:00 PM
 8,Diehl,Patrick,data/diehl.tex,Louisiana State University,A review of benchmark experiments for the validation of peridynamics models,26$^{th}$,3:00 PM--3:30 PM
-9,Lin ,Guang ,data/lin.tex,Purdue University,Peri-Net: Analysis of crack patterns using deep neural networks,26$^{th}$,4:30 PM--5:00 PM
+9,Lin,Guang,data/lin.tex,Purdue University,Peri-Net: Analysis of crack patterns using deep neural networks,26$^{th}$,4:30 PM--5:00 PM
 10,Guilleminot,Johann,data/guilleminot.tex,Duke University,Stochastic modeling for uncertainty quantification in fracture mechanics,26$^{th}$,5:00 PM--5:30 PM
 11,Ravi--Chandar,Krishnaswa,data/ravi.tex,The University of Texas at Austin,Experiments in fracture mechanics,27$^{th}$,9:00 AM--10:00 AM
 12,Tippur,Hareesh,data/tippur.tex,Auburn University,Experimental identification of dynamic crack branching precursors in soda-lime silicate glass,27$^{th}$,10:30 AM--11:00 AM
@@ -19,7 +19,7 @@ Talk,Last,First,Abstract,Affiliation,Title,Date,Time
 18,Anand,Lallit,data/anand.tex,Massachusetts Institute of Technology,A gradient-damaged theory for fracture of quasi-brittle materials,27$^{th}$,4:00 PM--5:00 PM
 19,Lopez-Pamies,Oscar,data/lopez.tex,University of Illinois at Urbana-Champaign,Revisiting nucleation in the phase-field approach to brittle fracture,27$^{th}$,5:00 PM--5:30 PM
 20,Waisman,Haim,data/waisman.tex,Columbia University,Thermal-conductivity degradation across cracks in coupled thermo-mechanical systems modeled by the phase-field fracture method,28$^{th}$,9:00 AM--9:30 AM
-21,Weinberg,Kerstin ,data/weinberg.tex,University of Siegen,Phase-field fracture models for linearized and finite strains,28$^{th}$,9:30 AM--10:00 AM
+21,Weinberg,Kerstin,data/weinberg.tex,University of Siegen,Phase-field fracture models for linearized and finite strains,28$^{th}$,9:30 AM--10:00 AM
 22,Kamensky,David,data/kamensky.tex,University of California San Diego,Isogeometric and meshfree analysis of hyperbolic phase field fracture,28$^{th}$,10:30 AM--11:00 AM
 23,Landis,Chad,data/landis.tex,The University of Texas at Austin,Some recent progress on phase-field modeling: fatigue, r-curves, and large structures,28$^{th}$,11:00 AM--11:30 AM
 24,Wick,Thomas,data/wick.tex,University of Hannover,Attempts to validate phase-field fracture for nearly incompressible solids with experimental data,28$^{th}$,11:30 AM--12:00 PM
