@@ -11,9 +11,9 @@
 \usepackage[a4paper,margin=3cm,innermargin=3cm]{geometry}
 
 \usepackage[
-    type={CC},
-    modifier={by-nc-nd},
-    version={4.0},
+ type={CC},
+ modifier={by-nc-nd},
+ version={4.0},
 ]{doclicense} 
 
 \usepackage{needspace}
@@ -22,6 +22,7 @@
 \renewcommand*{\marginfont}{\sffamily\footnotesize}
 
 \usepackage{imakeidx}
+
 \usepackage[hidelinks]{hyperref}
 \hypersetup{
 pdftitle={Book of Abstracts},
@@ -32,27 +33,27 @@ pdfkeywords={phase fields,peridynamics,experimental mechanics}
 \makeindex[intoc]
 
 \newenvironment{conf-abstract}[4][]{
-  \needspace{10\baselineskip}
-  \begin{center}
-    { \renewcommand\textsuperscript[1]{}
-      \phantomsection\addcontentsline{toc}{section}
-      {\texorpdfstring{#2 (\emph{#3})}{#2 (#3)}}
-    }
-    {{\large\bfseries #2}\marginnote{#1}\par}
-    \medskip
-    {#3\par}
-    \smallskip
-    {\small #4\par}
-  \end{center}
+ \needspace{10\baselineskip}
+ \begin{center}
+ { \renewcommand\textsuperscript[1]{}
+ \phantomsection\addcontentsline{toc}{section}
+ {\texorpdfstring{#2 (\emph{#3})}{#2 (#3)}}
+ }
+ {{\large\bfseries #2}\marginnote{#1}\par}
+ \medskip
+ {#3\par}
+ \smallskip
+ {\small #4\par}
+ \end{center}
 }{%
-  \bigskip
-  \hrule
-  \bigskip
+ \bigskip
+ \hrule
+ \bigskip
 }
 
 \usepackage{etoolbox}
 \newcommand{\indexauthors}[1]{%
-  \forcsvlist{\index}{#1}
+ \forcsvlist{\index}{#1}
 }
 
 \setcounter{tocdepth}{3}
@@ -107,9 +108,13 @@ This workshop is sponsored by
 Yo, welcome! Have a good time you guys!
 
 
-\begin{sidewaysfigure}
-\include{timetable/content}
-\end{sidewaysfigure}
+%\begin{sidewaysfigure}
+%\include{timetable/content}
+%\end{sidewaysfigure}
+
+\newpage
+
+\includegraphics[width=\linewidth]{timetable_edit.png}
 
 
 \tableofcontents
@@ -122,13 +127,13 @@ Yo, welcome! Have a good time you guys!
 {Integrated Computational Materials Engineering (ICME) development of carbon fiber composites for lightweight vehicles}
 {Danielle Zeng}
 {Ford Motor Company}
-\indexauthors{Zeng!Danielle}
+\index{Zeng~Danielle}
 \begin{center}
 \textit{Co-Authors: Pablo Seleson, Bo Ren, and C.T. Wu}
 \end{center}
-Automotive   manufacturers  use  lightweight   materials  to  meet  the  increasing   demands  of  fue l efficiency.  The Carbon Fiber  Reinforced  Polymer  (CFRP) composites,  with  a density  of 1.55  g/cm3 and  a tensile  strength  of 2000  MPa in  the fiber  direction,  are among  the most  promising  candidate s  to  replace  the  metals  currently  used  for  structural  components.  It  is  important  to  note  that  the  performance  of  carbon  fiber  composites  is  determined  not  only  by  the  component  design,  but  also the  manufacturing   processes.  In  this   talk,   the  focus  is  on   the  application   of  an  Integrated Computational  Materials  Engineering  (ICME) approach  to  the structural  composite  design.  A suite  of  predictive   models   is  developed   to  link   materials   design,   manufacturing   process  and  fina l performance  to  enable  optimal   design  and  manufacturing   of  CFRP  components  for  automotive  vehicles.
+Automotive manufacturers use lightweight materials to meet the increasing demands of fue l efficiency. The Carbon Fiber Reinforced Polymer (CFRP) composites, with a density of 1.55 g/cm3 and a tensile strength of 2000 MPa in the fiber direction, are among the most promising candidate s to replace the metals currently used for structural components. It is important to note that the performance of carbon fiber composites is determined not only by the component design, but also the manufacturing processes. In this talk, the focus is on the application of an Integrated Computational Materials Engineering (ICME) approach to the structural composite design. A suite of predictive models is developed to link materials design, manufacturing process and final performance to enable optimal design and manufacturing of CFRP components for automotive vehicles.
 
-One of the greatest challenges  for successful applying  the ICME approach  to CF composites  is  how  to  accurately simulate  the different  failure  modes  during  crash scenarios.  Especially,  the traditiona l thin  shell  model  in  finite  element  simulation  has  difficulty  in  capturing  the  delamination  behavior during  complex  loading  conditions.  Recently,  a discontinuous  Galerkin  weak form  for bond-based peridynamic  models  is developed  for composite  modeling  through  the collaboration  among  ORNL, LSTC  and   Ford.     The  accuracy  and   computational   efficiency   of  the  developed   model   for delamination   modeling   is  demonstrated  through  simulating   a dynamic  bending  test  of  a  lamina te  structure.
+One of the greatest challenges for successfully applying the ICME approach to CF composites is how to accurately simulate the different failure modes during crash scenarios. Especially, the traditiona l thin shell model in finite element simulation has difficulty in capturing the delamination behavior during complex loading conditions. Recently, a discontinuous Galerkin weak form for bond-based peridynamic models is developed for composite modeling through the collaboration among ORNL, LSTC and Ford. The accuracy and computational efficiency of the developed model for delamination modeling is demonstrated through simulating a dynamic bending test of a laminate structure.
 \end{conf-abstract}
 
 
@@ -140,7 +145,7 @@ One of the greatest challenges  for successful applying  the ICME approach  to C
 {\title}
 {\first~ \last}
 {\affiliation}
-\indexauthors{\last!\first}
+\indexauthors{\last~\first}
 \input{\text}
 \newpage
 \end{conf-abstract}
@@ -150,11 +155,13 @@ One of the greatest challenges  for successful applying  the ICME approach  to C
 
 \DTLforeach*{dataPoster}{\last=Last,\first=First,\affiliation=Affiliation,\title=Title,\datum=Date,\time=Time,\text=Abstract}
 {
+\def\x{\last}
+\def\y{\substring{\x}{1}{1}\par}
 \begin{conf-abstract}[\datum\\\time]
 {\title}
-{\first~ \last}
+{\first~\last}
 {\affiliation}
-\indexauthors{\last!\first}
+\indexauthors{\last~\first}
 \begin{center}
 \input{\text}
 \end{center}
@@ -185,7 +192,7 @@ One of the greatest challenges  for successful applying  the ICME approach  to C
 \section{Addresses}
 
 \subsection*{Workshop venue}
-Digital Media Center, Center for Computation \& Technology, 340 E Parker Blvd., Baton Rouge, LA  70803
+Digital Media Center, Center for Computation \& Technology, 340 E Parker Blvd., Baton Rouge, LA 70803
 \subsection*{Hotel}
 The Cook Hotel at LSU, 3848 W Lakeshore Dr, Baton Rouge, LA 70808 \\
 (225) 383-2665
