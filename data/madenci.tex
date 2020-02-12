@@ -1,8 +1,16 @@
 \begin{center}
-\textit{Co-Authors: Cagan Diyarogluand and Nam Phan}
+\textit{Co-Authors: D. Behera and P. Roy}
 \end{center} 
-This study presents a new approach to derive the bond-based (BB) Peridynamic (PD) equation of motion for elastic and isotropic materials experiencing small deformation. The pairwise interaction of the material points lead to bond forces between the two material points in opposite directions with equal magnitude. The bond force depends on the deformation state between these points. The original derivation of the BB PD equation of motion by Silling [1] requires calibration in order to determine the micro modulus (bond constant). The new approach employs the Navier’s displacement equilibrium equations in conjunction with the PD differential operator by Madenci et al. [2]. The resulting BB PD equilibrium equation is not limited to a specific value of Poisson’s ratio. It directly invokes the Young’s modulus and Poisson’s ratio with any calibration. Also, it is capable of directly computing the stress and strain fields. The approach is implemented into the ANSYS framework by using Matrix 27 elements in a seamless fashion. Several simulation results establish the fidelity of this approach. \\
+This study considers finite elastic deformation and damage in rubber-like materials under quasi-static loading conditions.  The peridynamic equilibrium equation is derived based on the Neo-Hookean hyperelastic model under the assumption of incompressibility.  The nonlocal deformation gradient tensor is computed in a bond-associated domain of interaction using the PD differential operator.  It is free of oscillations and spurious zero energy modes commonly observed in the PD correspondence models.  Also, it permits the direct imposition of natural and essential boundary conditions.  The validity of this approach is demonstrated through simulations of experiments concerning progressive damage and rupture in polymers undergoing large elastic deformation.\\
 
 \noindent\textbf{References}\\
-$[$1$]$ S. A. Silling, Reformulation of Elasticity Theory for Discontinuities and Long-Range Forces, J. Mech. Phys. Solids, 48, 175–209, 2000.\\\newline
-$[$2$]$ E. Madenci, A. Barut, M. Dorduncu, Peridynamic differential operator for numerical analysis, Springer, NY, 2019.
+$[$1$]$ Silling SA, Epton M, Weckner O, Xu J, Askari E, Peridynamic states and constitutive
+modeling. Journal of Elasticity, 88:151-184, 2007\\\newline
+$[$2$]$ Madenci E, Dorduncu M, Barut A, Phan N., Weak form of peridynamics for nonlocal essential
+and natural boundary conditions. Computer Methods in Applied Mechanics and Engineering.
+337: 598-631, 2018\\\newline
+$[$3$]$ Madenci E, Dorduncu M, Phan N, Gu X, Weak form of bond-associated non-ordinary state-
+based peridynamics free of zero energy modes with uniform or non-uniform discretization,
+Engineering Fracture Mechanics, 218: 106613, 2019\\\newline
+$[$4$]$ Madenci E, Barut A, Doruncu M, Peridynamic differential operator for numerical analysis,
+Springer, NY, 2019.  
