@@ -4,6 +4,4 @@ Comparison of numerical simulations against experimental data is essential for t
 
 The objectives of this workshop are to bring together experts in experimental fracture mechanics, peridynamics, and phase field methods to discuss the state-of-the-art of experimental measurement and computational modeling with applications in fracture mechanics, to promote a dialogue between these communities, and to identify challenges and pathways for robust validation of phase field and peridynamic models as well as integration of experimental and modeling efforts.
 
-This workshop is sponsored by the Technical Thrust Area on Large Scale Structural Systems and Optimal Design of the US Association for Computational Mechanics and the Center for Computation & Techology at Louisiana State University.
-
-
+This workshop is sponsored by the Technical Thrust Area on Large Scale Structural Systems and Optimal Design of the US Association for Computational Mechanics, the Center for Computation & Technology at Louisiana State University, the Oak Ridge National Laboratory, the Society for Experimental Mechanics, and the U.S. National Committee on Theoretical and Applied Mechanics (USNC/TAM).
